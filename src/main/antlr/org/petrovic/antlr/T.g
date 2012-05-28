@@ -4,8 +4,12 @@ grammar T;
 package org.petrovic.antlr;
 }
 
-@members {
+@parser::members {
 int blah = 0;
+}
+
+@lexer::members {
+int blahlexer = 0;
 }
 
 @lexer::header {
